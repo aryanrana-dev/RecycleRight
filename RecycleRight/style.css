@@ -1,0 +1,97 @@
+body {
+  background-image: url("tree-on-sky-3.jpg");
+  background-size: cover;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  margin-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 5px;
+}
+img {
+  height: 65px;
+  width: 65px;
+  border-radius: 5%;
+  margin-left: 1.5rem;
+}
+img:hover {
+  animation: spin 1s linear infinite ;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  } 100% {
+    transform: rotate(360deg);
+  }
+}
+p {
+  color: #28a745;
+  filter: brightness(1.5);
+  margin-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+button {
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+    font-size: 1.2rem !important;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+span {
+  margin-left: 5px;
+  font-size: 10px;
+  vertical-align: middle;
+}
+button:hover {
+    transform: scale(1.05);
+    background-color: #218838;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+div {
+  display: flex;
+  justify-content: center;
+}
+#inp {
+  width: 400px;
+  margin-right: 50px;
+  padding: 8px 12px;
+  border: 4px solid #28a745;
+  background-color: white;
+  color: grey;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+#result {
+  margin-top: 100px;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+  letter-spacing: 1px;
+}
+.info {
+  color: green;
+}
+.empty {
+  color: #ff6f61;
+  font-weight: bold;
+}
